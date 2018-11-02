@@ -30,19 +30,25 @@ function dec(n){
 
 //makeInt function
 function makeInt(n){
-  parseInt(n)
-  return n
-
   return parseInt(n, 10)
+  //return n
+  //makeInt(a.toString())
+  //return a
 
-  isNan(parseInt('sldkjflksjf'))
-  return Nan
+  //makeInt('0x2328')
+  return parseInt('0x2328')
+  //parseInt(n, 10)
+  //return parseInt('n', 10)
+
+  return parseInt('sldkjflksjf')
+  //isNan(makeInt('sldkjflksjf'))
+  //return Nan
 }
 
 function preserveDecimal(n){
   return parseFloat(n)
-  preserveDecimal('2.222')
-  return 2.222
+  return preserveDecimal('2.222')
+  //return 2.222
 
   isNan(preserveDecimal('sldkjflksjf'))
   return Nan
