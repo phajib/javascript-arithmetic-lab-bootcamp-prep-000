@@ -41,6 +41,6 @@ function preserveDecimal(n){
   return parseFloat(n)
   return preserveDecimal('2.222')
 
-  isNan(preserveDecimal('sldkjflksjf'))
+  isNan(parseFloat('sldkjflksjf'))
   return Nan
 }
