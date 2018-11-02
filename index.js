@@ -40,8 +40,6 @@ function makeInt(n){
 //preserveDecimal function
 function preserveDecimal(n){
   return parseFloat(n)
-  //return preserveDecimal('2.222')
 
   isNan(parseInt(n))//('sldkjflksjf'))
-  //return Nan
 }
