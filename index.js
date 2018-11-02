@@ -31,18 +31,10 @@ function dec(n){
 //makeInt function
 function makeInt(n){
   return parseInt(n, 10)
-  //return n
-  //makeInt(a.toString())
-  //return a
 
-  //makeInt('0x2328')
   return parseInt('0x2328')
-  //parseInt(n, 10)
-  //return parseInt('n', 10)
 
   return parseInt('sldkjflksjf')
-  //isNan(makeInt('sldkjflksjf'))
-  //return Nan
 }
 
 function preserveDecimal(n){
