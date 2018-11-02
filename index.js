@@ -37,10 +37,11 @@ function makeInt(n){
   return parseInt('sldkjflksjf')
 }
 
+//preserveDecimal function
 function preserveDecimal(n){
   return parseFloat(n)
   //return preserveDecimal('2.222')
 
-  isNan(parseInt('sldkjflksjf'))
+  isNan(parseInt(n)//('sldkjflksjf'))
   //return Nan
 }
