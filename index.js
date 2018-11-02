@@ -32,15 +32,10 @@ function dec(n){
 function makeInt(n){
   parseInt(n)
   return n
-  //makeInt(a.toString())
-  //return a
 
-  //makeInt('0x2328', 10)
-  //parseInt(0x2328)
-  //parseInt(n, 10)
   return parseInt(n, 10)
 
-  isNan(makeInt('sldkjflksjf'))
+  isNan(parseInt('sldkjflksjf'))
   return Nan
 }
 
